@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nama"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:autofillHints="" />
+        <EditText
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/alamat"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:autofillHints="" />
+        <EditText
+            android:id="@+id/no_hp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nomor_handphone"
+            android:ems="10"
+            android:inputType="number"
+            android:autofillHints="" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/save"
+                android:layout_weight="1"
+                android:text="@string/simpan"
+                style="?android:attr/buttonBarButtonStyle" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_data"
+                android:layout_weight="1"
+                android:text="@string/lihat_data"
+                style="?android:attr/buttonBarButtonStyle" />
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/logout"
+            android:text="@string/logout" />
+    </LinearLayout>
+</RelativeLayout>

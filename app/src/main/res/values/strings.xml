@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DaftarTeman</string>
+    <string name="login">LOGIN</string>
+    <string name="todo">TODO</string>
+    <string name="nama">Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="nomor_handphone">Nomor Handphone</string>
+    <string name="simpan">SIMPAN</string>
+    <string name="lihat_data">LIHAT DATA</string>
+    <string name="logout">LOGOUT</string>
+    <string name="nama_baru">Nama baru</string>
+    <string name="alamat_baru">Alamat baru</string>
+    <string name="nomor_handphone_baru">Nomor Handphone baru</string>
+    <string name="update">UPDATE</string>
+    <string name="todo">TODO</string>
+    <string name="nama">Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="no_handphone">No Handphone</string>
+</resources>

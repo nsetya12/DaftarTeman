@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateData"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_nama"
+        android:textSize="15sp"
+        android:hint="@string/nama_baru"
+        android:inputType="textPersonName"
+        android:autofillHints="" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_alamat"
+        android:textSize="15sp"
+        android:hint="@string/alamat_baru"
+        android:inputType="textPersonName"
+        android:autofillHints="" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_nohp"
+        android:textSize="15sp"
+        android:hint="@string/nomor_handphone_baru"
+        android:inputType="textPersonName"
+        android:autofillHints="" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update"
+        android:text="@string/update" />
+</LinearLayout>
